@@ -72,7 +72,7 @@ img {
     height: 2px;
 }
 
-/* intro styles */
+/* intro section */
 
 #intro {
     padding: 4rem 1rem 10rem 1rem;
@@ -102,6 +102,30 @@ img {
     font-size: 4rem;
 }
 
+#intro th, td, table {
+    padding: 10px;
+    border: 1px solid var(--accent);
+    border-collapse: collapse;
+}
+
+#intro td:nth-child(3){
+    text-align: center;
+}
+
+.alignCenter {
+    display: flex;
+    justify-content: center;
+    margin: 2rem;
+}
+#intro caption {
+    font-family: var(--mono);
+    padding-bottom: 1rem;
+    font-size: 2rem;
+
+}
+#lineMargin {
+    margin: 2rem 0;
+}
 /* contact section */
 
 #contact {
